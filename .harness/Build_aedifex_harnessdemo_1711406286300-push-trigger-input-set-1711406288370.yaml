@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aedifex_harnessdemo_1711406286300-push-trigger-input-set
+  identifier: Build_aedifex_harnessdemo_1711406286300pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aedifex_harnessdemo_1711406286300
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
